@@ -4,6 +4,7 @@ Repositório do grupo de estudos sobre __elixir__ do [Training Center](https://t
 
 <p align="center">
   <img src="assets/training-center-logo.svg" alt="Logo do Training Center">
+  <img src="https://elixir-lang.org/images/logo/logo.png" alt="Logo do Training Center">
 </p>
 
 ## Como funciona
