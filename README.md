@@ -51,9 +51,17 @@ Caso você precise entrar em contato com as pessoas responsáveis por este grupo
 
 ## Submetendo suas soluções para Desafios
 
-Para submeter a sua solução dos desafios abaixo, você deve criar um repo na sua conta do github, e fazer um PR para este repo apenas com o link da solução.
+- Faça um Fork desse Repo
+- Vá até o [diretório das soluções](solucoes/) e ache o desafio correto
+- Dentro dele, crie um arquivo ou pasta com o seu nome
+- Faça um Pull Request para este Repo!
 
 Let the games begin!
+
+## Revisando Soluções dos amiguinhos
+
+Após submeter a sua solução, revise a solução dos outros participantes!
+Ajude quem precisar de ajuda e de feedback pras soluções deles!
 
 ## Links úteis para o desafio
 
@@ -79,8 +87,6 @@ Se ele perder, uma mensagem de derrota deverá ser mostrada como `Errado, você 
 - [IO module](https://elixir-lang.org/getting-started/io-and-the-file-system.html#the-io-module)
 
 **Soluções**
-
-- [lbighetti (placeholder)](https://github.com/gothinkster/elixir-phoenix-realworld-example-app/blob/master/mix.exs)
 
 
 ---
