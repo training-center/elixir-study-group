@@ -3,6 +3,7 @@
 - [elixir-study-group](#elixir-study-group)
   - [Como funciona](#como-funciona)
   - [Como participar](#como-participar)
+  - [Submetendo os Desafios](#submetendo-os-desafios)
   - [Responsáveis](#respons%C3%A1veis)
   - [Participantes](#participantes)
   - [Roadmap](#roadmap)
@@ -34,6 +35,7 @@ Bora ?
 
 Entre no [Slack do Training Center](https://github.com/training-center/slack) e entrar no canal **elixir-studies** e nos avise que quer se juntar!
 
+
 ## Responsáveis
 
 Caso você precise entrar em contato com as pessoas responsáveis por este grupo de estudos, pode chamar por `@leandro.bighetti` no Slack do Training Center.
@@ -44,8 +46,24 @@ Caso você precise entrar em contato com as pessoas responsáveis por este grupo
 - [rafaels88](https://github.com/rafaels88)
 - [gionaufal](https://github.com/gionaufal)
 - [oieusouamiguel](https://github.com/oieusouamiguel)
+- [rodrigooler](https://github.com/rodrigooler)
+- [felipsimoes](https://github.com/felipsimoes)
 
-## Roadmap
+## Submetendo suas soluções para Desafios
+
+Para submeter a sua solução dos desafios abaixo, você deve criar um repo na sua conta do github, e fazer um PR para este repo apenas com o link da solução.
+
+Let the games begin!
+
+## Links úteis para o desafio
+
+Todo desafio terá uma sessão de links relevantes para a solução do mesmo. Se você utilizou algum recurso não listado, por favor faça um PR incluindo estes recurso para ajudar os coleguinhas! :)
+
+---
+
+## Desafios
+
+---
 
 ### Desafio 1 - Adivinhe a palavra simplificado
 
@@ -54,6 +72,13 @@ Ao rodar o jogo, o programa deve mostrar algumas dicas como `Poção mágica, li
 O jogador só terá 1 tentativa, ou ele ganha o jogo ou perde.
 Se ele ganhar, uma mensagem de vitória deverá ser mostrada como `Parabéns, você acertou!`.
 Se ele perder, uma mensagem de derrota deverá ser mostrada como `Errado, você perdeu.`
+
+**Links:**
+
+- [Getting Started](https://elixir-lang.org/getting-started/introduction.html)
+- [IO module](https://elixir-lang.org/getting-started/io-and-the-file-system.html#the-io-module)
+
+---
 
 ### Desafio 2 - Adivinhe a palavra completo
 
@@ -64,6 +89,8 @@ Construa o mesmo jogo acima, porém com algumas modificações:
 
 A palavra em si deve ser entrada logo após rodar o programa.
 Ao errar, o programa deve voltar a perguntar qual a palavra correta novamente, até que ele acerte.
+
+---
 
 ## Material de apoio ao grupo de estudos
 
