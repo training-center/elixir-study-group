@@ -53,7 +53,7 @@ Caso você precise entrar em contato com as pessoas responsáveis por este grupo
 
 - Faça um Fork desse Repo
 - Vá até o [diretório das soluções](solucoes/) e ache o desafio correto
-- Dentro dele, crie um arquivo ou pasta com o seu nome
+- Dentro dele, crie um arquivo ou pasta com o **seu usuário do github**
 - Faça um Pull Request para este Repo!
 
 Let the games begin!
