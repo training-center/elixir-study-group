@@ -78,6 +78,11 @@ Se ele perder, uma mensagem de derrota deverá ser mostrada como `Errado, você 
 - [Getting Started](https://elixir-lang.org/getting-started/introduction.html)
 - [IO module](https://elixir-lang.org/getting-started/io-and-the-file-system.html#the-io-module)
 
+**Soluções**
+
+- [lbighetti (placeholder)](https://github.com/gothinkster/elixir-phoenix-realworld-example-app/blob/master/mix.exs)
+
+
 ---
 
 ### Desafio 2 - Adivinhe a palavra completo
