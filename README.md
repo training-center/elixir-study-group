@@ -48,6 +48,7 @@ Caso você precise entrar em contato com as pessoas responsáveis por este grupo
 - [oieusouamiguel](https://github.com/oieusouamiguel)
 - [rodrigooler](https://github.com/rodrigooler)
 - [felipsimoes](https://github.com/felipsimoes)
+- [shadowmaru](https://github.com/shadowmaru)
 
 ## Submetendo suas soluções para Desafios
 
