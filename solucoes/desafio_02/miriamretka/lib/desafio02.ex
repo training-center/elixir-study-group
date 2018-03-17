@@ -7,7 +7,8 @@ defmodule Desafio02 do
 
   A palavra em si deve ser entrada logo após rodar o programa. Ao
   errar, o programa deve voltar a perguntar qual a palavra correta
-  novamente, até que ele acerte."""
+  novamente, até que ele acerte.
+  """
 
   def mostrar_dica(lista_dicas) do
     "Dica: " <> Random.choice(lista_dicas)
@@ -18,7 +19,8 @@ defmodule Desafio02 do
     if (String.downcase(tentativa) == palavra_alvo) do
       IO.puts("Parabéns, você acertou!")
     else
-      IO.puts("Errado, você perdeu.")
+      IO.puts("Errado, tente de novo.")
+      adivinhar_palavra(palavra_alvo) # Loop = recursão
     end
   end
 
