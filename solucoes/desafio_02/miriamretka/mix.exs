@@ -1,28 +1,35 @@
-defmodule Desafio02.MixProject do
+defmodule Desafio_01Tc.Mixfile do
   use Mix.Project
 
   def project do
-    [
-      app: :desafio02,
-      version: "0.1.0",
-      elixir: "~> 1.6",
-      start_permanent: Mix.env() == :prod,
-      deps: deps()
-    ]
+    [app: :desafio_01_tc,
+     version: "0.0.1",
+     elixir: "~> 1.1-dev",
+     build_embedded: Mix.env == :prod,
+     start_permanent: Mix.env == :prod,
+     deps: deps]
   end
 
-  # Run "mix help compile.app" to learn about applications.
+  # Configuration for the OTP application
+  #
+  # Type `mix help compile.app` for more information
   def application do
-    [
-      extra_applications: [:logger]
-    ]
+    [applications: [:logger]]
   end
 
-  # Run "mix help deps" to learn about dependencies.
+  # Dependencies can be Hex packages:
+  #
+  #   {:mydep, "~> 0.3.0"}
+  #
+  # Or git/path repositories:
+  #
+  #   {:mydep, git: "https://github.com/elixir-lang/mydep.git", tag: "0.1.0"}
+  #
+  # Type `mix help deps` for more examples and options
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
+      {:credo, "~> 0.9.0-rc1", only: [:dev, :test], runtime: false},
+      {:random, "~> 0.2.3"}
     ]
   end
 end
