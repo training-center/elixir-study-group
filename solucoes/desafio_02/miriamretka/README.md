@@ -1,21 +1,12 @@
 # Desafio02
 
-**TODO: Add description**
+Construa o mesmo jogo acima, porém com algumas modificações:
 
-## Installation
+- Faça a palavra a ser adivinhada ser configurável.
+- O usuário tem tentativas ilimitadas.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `desafio02` to your list of dependencies in `mix.exs`:
+A palavra em si deve ser entrada logo após rodar o programa. Ao errar,
+o programa deve voltar a perguntar qual a palavra correta novamente,
+até que ele acerte.
 
-```elixir
-def deps do
-  [
-    {:desafio02, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/desafio02](https://hexdocs.pm/desafio02).
-
+- [Solução do desafio 2](https://github.com/Auralcat/elixir-study-group/blob/master/solucoes/desafio_02/miriamretka/lib/desafio02.ex)
