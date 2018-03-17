@@ -15,7 +15,9 @@ defmodule Desafio02 do
   end
 
   def adivinhar_palavra(palavra_alvo) do
-    tentativa = IO.gets("Digite a palavra >> ") |> String.replace(~r/\r|\n/, "")
+    tentativa = IO.gets("Digite a palavra >> ")
+      |> String.replace(~r/\r|\n/, "")
+      |> String.trim
     if (String.downcase(tentativa) == palavra_alvo) do
       IO.puts("Parabéns, você acertou!")
     else
