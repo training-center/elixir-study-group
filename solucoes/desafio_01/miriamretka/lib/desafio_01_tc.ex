@@ -15,7 +15,9 @@ defmodule Desafio_01Tc do
   end
 
   def adivinhar_palavra do
-    tentativa = IO.gets("Digite a palavra >> ") |> String.replace(~r/\r|\n/, "")
+    tentativa = IO.gets("Digite a palavra >> ")
+      |> String.replace(~r/\r|\n/, "")
+      |> String.trim
     if (String.downcase(tentativa) == "elixir") do
       IO.puts("Parabéns, você acertou!")
     else
