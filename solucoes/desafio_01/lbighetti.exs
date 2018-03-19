@@ -3,8 +3,10 @@
 hints = "Poção mágica, liquido encantado em frasco."
 IO.puts "Dicas: #{hints}"
 
-guess = IO.gets "Adivinhe a palavra: "
-guess = String.trim(guess)
+guess =
+  IO.gets("Adivinhe a palavra: ")
+  |> String.trim
+  |> String.downcase
 
 case guess do
   "elixir" ->
