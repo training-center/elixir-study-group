@@ -127,3 +127,4 @@ Ao errar, o programa deve voltar a perguntar qual a palavra correta novamente, a
 -  [Site da linguagem](https://elixir-lang.org/)
  - [Forum](https://elixirforum.com/)
  - [Github](https://github.com/elixir-lang/elixir)
+
