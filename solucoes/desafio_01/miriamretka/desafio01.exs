@@ -1,20 +1,25 @@
 defmodule Desafio01 do
-  @moduledoc
-  """
-  Construa um jogo de texto, em que o jogador tenha que adivinhar a
-  palavra elixir. Ao rodar o jogo, o programa deve mostrar algumas
-  dicas como Poção mágica, liquido encantado em frasco. O jogador só
-  terá 1 tentativa, ou ele ganha o jogo ou perde. Se ele ganhar, uma
-  mensagem de vitória deverá ser mostrada como Parabéns, você
-  acertou!. Se ele perder, uma mensagem de derrota deverá ser mostrada
-  como Errado, você perdeu.
-  """
+  def mostrarDica do
+    dicas = ["Poção mágica", "Líquido encantado em frasco",
+             "Recupera todo o HP/MP de um personagem no Final Fantasy"]
+    Enum.random(dicas)
+  end
 
+  def adivinharPalavra do
+    tentativa = IO.gets("Digite a palavra 👉  ")
+      |> String.replace(~r/\r|\n/, "")
+      |> String.trim
+    if (String.downcase(tentativa) == "elixir") do
+      IO.puts "Parabéns, você acertou! 🙌"
+    else
+      IO.puts "Que pena, melhor sorte na próxima! 😞"
+    end
+  end
 
   def main do
     IO.puts "Prepare-se para adivinhar a palavra!"
-
-
+    IO.puts "Dica: #{mostrarDica()}"
+    adivinharPalavra()
   end
 end
 
