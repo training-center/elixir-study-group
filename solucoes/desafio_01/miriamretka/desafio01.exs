@@ -7,7 +7,6 @@ defmodule Desafio01 do
   # variável que não o especificado.
 
   @spec mostrarDica() :: String.t
-
   def mostrarDica do
     dicas = ["Poção mágica", "Líquido encantado em frasco",
              "Recupera todo o HP/MP de um personagem no Final Fantasy"]
