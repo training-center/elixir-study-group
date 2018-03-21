@@ -1,4 +1,11 @@
 defmodule Desafio01 do
+
+  # Anotação de spec: serve para especificar o tipo da variável de
+  # retorno da função
+
+  # Strings em Elixir tem outro significado
+  @spec mostrarDica() :: charlist()
+
   def mostrarDica do
     dicas = ["Poção mágica", "Líquido encantado em frasco",
              "Recupera todo o HP/MP de um personagem no Final Fantasy"]
