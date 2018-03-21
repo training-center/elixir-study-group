@@ -1,10 +1,12 @@
 defmodule Desafio01 do
 
   # Anotação de spec: serve para especificar o tipo da variável de
-  # retorno da função
+  # retorno da função.
+  # Não faz nada por conta, mas pode ser usado com o módulo Dialyzer
+  # para levantar erros se a função receber ou passar outro tipo de
+  # variável que não o especificado.
 
-  # Strings em Elixir tem outro significado
-  @spec mostrarDica() :: charlist()
+  @spec mostrarDica() :: String.t
 
   def mostrarDica do
     dicas = ["Poção mágica", "Líquido encantado em frasco",
