@@ -49,7 +49,6 @@ Caso você precise entrar em contato com as pessoas responsáveis por este grupo
 - [rodrigooler](https://github.com/rodrigooler)
 - [felipsimoes](https://github.com/felipsimoes)
 - [shadowmaru](https://github.com/shadowmaru)
-- [miriamretka](https://github.com/Auralcat)
 
 ## Submetendo suas soluções para Desafios
 
