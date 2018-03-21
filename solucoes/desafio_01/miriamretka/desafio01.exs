@@ -19,16 +19,16 @@ defmodule Desafio01 do
       |> String.replace(~r/\r|\n/, "")
       |> String.trim
     if (String.downcase(tentativa) == "elixir") do
-      "Parabéns, você acertou! 🙌"
+      IO.puts "Parabéns, você acertou! 🙌"
     else
-      "Que pena, melhor sorte na próxima! 😞"
+      IO.puts "Que pena, melhor sorte na próxima! 😞"
     end
   end
 
   def main do
     IO.puts "Prepare-se para adivinhar a palavra!"
     IO.puts "Dica: #{mostrarDica()}"
-    IO.puts adivinharPalavra()
+    adivinharPalavra()
   end
 end
 
