@@ -15,7 +15,7 @@ defmodule Mschonfinkel do
   end
 
   def show_hint() do
-    "Dica: " <> Enum.random(@hints) <> "\n"
+    "Dica: #{Enum.random(@hints)}\n"
   end
 
   def normalize_input(user_input) do
