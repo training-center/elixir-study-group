@@ -49,6 +49,7 @@ Caso você precise entrar em contato com as pessoas responsáveis por este grupo
 - [rodrigooler](https://github.com/rodrigooler)
 - [felipsimoes](https://github.com/felipsimoes)
 - [shadowmaru](https://github.com/shadowmaru)
+- [miriamretka](https://github.com/Auralcat)
 - [mschonfinkel](https://github.com/mschonfinkel)
 
 ## Submetendo suas soluções para Desafios
@@ -128,4 +129,3 @@ Ao errar, o programa deve voltar a perguntar qual a palavra correta novamente, a
 -  [Site da linguagem](https://elixir-lang.org/)
  - [Forum](https://elixirforum.com/)
  - [Github](https://github.com/elixir-lang/elixir)
-
