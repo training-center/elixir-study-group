@@ -50,6 +50,7 @@ Caso você precise entrar em contato com as pessoas responsáveis por este grupo
 - [felipsimoes](https://github.com/felipsimoes)
 - [shadowmaru](https://github.com/shadowmaru)
 - [miriamretka](https://github.com/Auralcat)
+- [mschonfinkel](https://github.com/mschonfinkel)
 
 ## Submetendo suas soluções para Desafios
 
