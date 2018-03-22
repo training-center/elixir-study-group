@@ -51,6 +51,7 @@ Caso você precise entrar em contato com as pessoas responsáveis por este grupo
 - [shadowmaru](https://github.com/shadowmaru)
 - [miriamretka](https://github.com/Auralcat)
 - [mschonfinkel](https://github.com/mschonfinkel)
+- [mikaelhadler](https://github.com/mikaelhadler)
 
 ## Submetendo suas soluções para Desafios
 
