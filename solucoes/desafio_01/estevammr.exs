@@ -8,14 +8,14 @@ IO.puts "Olá, este é um jogo com o objetivo de adivinhar a palavra secreta. Va
 resposta = IO.gets "Sim ou Não? "
 if resposta |> String.trim |> String.downcase == "sim" do
 	IO.puts "Vamos começar então. As dicas sobre a palavra secreta são: Poção mágica, líquido encantado em frasco"
-    IO.puts "Estou aguardando sua resposta :)"
-    palavra = IO.gets "Resposta => "
+	IO.puts "Estou aguardando sua resposta :)"
+	palavra = IO.gets "Resposta => "
 	palavra_secreta = "elixir"
-    if palavra |> String.trim |> String.downcase == palavra_secreta do
-        IO.puts "Parabéns você acertou!"
-    else
+	if palavra |> String.trim |> String.downcase == palavra_secreta do
+		IO.puts "Parabéns você acertou!"
+	else
 		IO.puts "Você errou :/" 
 	end
-else 
+else
 	IO.puts "Ok, quem sabe em uma próxima vez :)"
 end
